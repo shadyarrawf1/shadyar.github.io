@@ -1,0 +1,41 @@
+ul {
+    width: 100px;
+    border-radius: 20px;
+height: 200px;
+margin-top: 10px;
+
+}
+
+body{
+    background: rgb(224, 220, 181);
+
+}
+
+ul li{
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    list-style-type: none;
+}
+ul li a{
+
+    text-decoration: none;
+    color: rgb(1, 1, 1);
+    border: 1px solid tomato;
+    padding: 5px;
+    border-radius: 10px;
+box-shadow:5px 5px 10px 0px green  ;
+transition: 1s;
+cursor: pointer;
+}
+a:hover{
+    background: whitesmoke;
+
+}
+ a:active{
+background: rgb(255, 0, 0);
+color: rgb(255, 255, 255);
+ }
+
+
+
+
